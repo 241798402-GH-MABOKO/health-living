@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 const Login = ({ toggleForm }) => {
   return (
@@ -11,6 +12,7 @@ const Login = ({ toggleForm }) => {
         <div className="form-group">
           <input type="password" placeholder="Password" required />
         </div>
+
         <a href="#" className="forgot-password">
           Forgot password?
         </a>
